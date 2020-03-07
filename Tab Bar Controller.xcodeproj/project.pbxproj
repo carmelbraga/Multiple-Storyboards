@@ -15,6 +15,10 @@
 		1E1A60282413221900E287AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A60262413221900E287AB /* LaunchScreen.storyboard */; };
 		1E1A60332413221900E287AB /* Tab_Bar_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A60322413221900E287AB /* Tab_Bar_ControllerTests.swift */; };
 		1E1A603E2413221A00E287AB /* Tab_Bar_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A603D2413221A00E287AB /* Tab_Bar_ControllerUITests.swift */; };
+		1E1A604C2413232500E287AB /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A604B2413232500E287AB /* FirstPageViewController.swift */; };
+		1E1A604E2413235300E287AB /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A604D2413235300E287AB /* SecondPageViewController.swift */; };
+		1E1A60512413237600E287AB /* FirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A604F2413237600E287AB /* FirstPage.storyboard */; };
+		1E1A60532413239400E287AB /* SecondPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A60522413239400E287AB /* SecondPage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1E1A60392413221A00E287AB /* Tab Bar ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab Bar ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1A603D2413221A00E287AB /* Tab_Bar_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_Bar_ControllerUITests.swift; sourceTree = "<group>"; };
 		1E1A603F2413221A00E287AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E1A604B2413232500E287AB /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		1E1A604D2413235300E287AB /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		1E1A60502413237600E287AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Tab Bar Controller/Base.lproj/FirstPage.storyboard"; sourceTree = "<group>"; };
+		1E1A60522413239400E287AB /* SecondPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondPage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		1E1A600F2413220E00E287AB = {
 			isa = PBXGroup;
 			children = (
+				1E1A60522413239400E287AB /* SecondPage.storyboard */,
+				1E1A604F2413237600E287AB /* FirstPage.storyboard */,
 				1E1A601A2413220E00E287AB /* Tab Bar Controller */,
 				1E1A60312413221900E287AB /* Tab Bar ControllerTests */,
 				1E1A603C2413221A00E287AB /* Tab Bar ControllerUITests */,
@@ -106,6 +116,8 @@
 				1E1A60242413221900E287AB /* Assets.xcassets */,
 				1E1A60262413221900E287AB /* LaunchScreen.storyboard */,
 				1E1A60292413221900E287AB /* Info.plist */,
+				1E1A604B2413232500E287AB /* FirstPageViewController.swift */,
+				1E1A604D2413235300E287AB /* SecondPageViewController.swift */,
 			);
 			path = "Tab Bar Controller";
 			sourceTree = "<group>";
@@ -232,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1A60512413237600E287AB /* FirstPage.storyboard in Resources */,
+				1E1A60532413239400E287AB /* SecondPage.storyboard in Resources */,
 				1E1A60282413221900E287AB /* LaunchScreen.storyboard in Resources */,
 				1E1A60252413221900E287AB /* Assets.xcassets in Resources */,
 				1E1A60232413220E00E287AB /* Main.storyboard in Resources */,
@@ -259,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1A604C2413232500E287AB /* FirstPageViewController.swift in Sources */,
 				1E1A60202413220E00E287AB /* ViewController.swift in Sources */,
 				1E1A601C2413220E00E287AB /* AppDelegate.swift in Sources */,
 				1E1A601E2413220E00E287AB /* SceneDelegate.swift in Sources */,
+				1E1A604E2413235300E287AB /* SecondPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +327,14 @@
 				1E1A60272413221900E287AB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1E1A604F2413237600E287AB /* FirstPage.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1A60502413237600E287AB /* Base */,
+			);
+			name = FirstPage.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
